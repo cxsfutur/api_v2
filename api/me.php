@@ -27,7 +27,7 @@ function get_client_ip() {
 $query = get_client_ip();
 
 // 定义API链接，将获取到的IP地址填入
-$url = "http://ip-api.com/json/{$query}?fields=5271069";
+$url = "http://ip-api.com/json/{$query}?lang=zh-CN&fields=5271069";
 
 // 使用file_get_contents函数获取链接返回的数据
 $response = file_get_contents($url);
