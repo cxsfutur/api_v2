@@ -1,9 +1,9 @@
 <?php
-$DATABASE_HOST = "aws.connect.psdb.cloud";
-$DATABASE_NAME = "config";
-$DATABASE_USERNAME = "srxojllm54adshjur83r";
-$DATABASE_PASSWORD = "pscale_pw_5UMg0eeobinJXHlJr2uO4bQ4t6JBlfIRHUPBOhaZbsG";
-
+$DB_HOST=aws.connect.psdb.cloud
+$DB_USERNAME=8uazp0oycou9rd64vowj
+$DB_PASSWORD=pscale_pw_JGuDLj7w7Bnqhe4fPeAhS2gcHEKAubgxGEv0Ke497KF
+$DB_NAME=config
+  
 // 如果有SSL证书文件路径，则可以添加如下配置：
 $ssl_options = array(
     PDO::MYSQL_ATTR_SSL_CA => '/path/to/ca_cert.pem', // CA证书路径
